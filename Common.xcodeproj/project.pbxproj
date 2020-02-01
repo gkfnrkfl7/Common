@@ -10,6 +10,7 @@
 		49868F0923E0009700CE8BB5 /* Common.h in Headers */ = {isa = PBXBuildFile; fileRef = 49868F0723E0009700CE8BB5 /* Common.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		49868F1023E52A1C00CE8BB5 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49868F0F23E52A1C00CE8BB5 /* String.swift */; };
 		49868F1223E52DDA00CE8BB5 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49868F1123E52DDA00CE8BB5 /* Array.swift */; };
+		49868F1423E5374800CE8BB5 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49868F1323E5374800CE8BB5 /* UIColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +19,7 @@
 		49868F0823E0009700CE8BB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49868F0F23E52A1C00CE8BB5 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		49868F1123E52DDA00CE8BB5 /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		49868F1323E5374800CE8BB5 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 				49868F0823E0009700CE8BB5 /* Info.plist */,
 				49868F0F23E52A1C00CE8BB5 /* String.swift */,
 				49868F1123E52DDA00CE8BB5 /* Array.swift */,
+				49868F1323E5374800CE8BB5 /* UIColor.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49868F1023E52A1C00CE8BB5 /* String.swift in Sources */,
+				49868F1423E5374800CE8BB5 /* UIColor.swift in Sources */,
 				49868F1223E52DDA00CE8BB5 /* Array.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
