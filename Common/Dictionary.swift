@@ -10,7 +10,7 @@ import Foundation
 
 extension Dictionary {
     
-    // MARK: array -> Dicnary<k, v> init
+    // MARK: Array -> Dictionary<k, v> init
     
     init<S>(sequence: S, transform: (_ element: S.Element) -> (ket: Key, value: Value)) where S: Sequence {
         self = sequence.reduce(into: [Key: Value]()) { dictionary, current in
