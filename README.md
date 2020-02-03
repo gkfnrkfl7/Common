@@ -35,3 +35,22 @@ let range = string.range(of: "Swift")
 
 let nsRange = string.nsRange(from: Range) // <- Here
 ```
+
+### UIColor
+**init(r: Int, g: Int, b: Int, alpha: CGFloat? = nil)** - rgb 255 초기화
+```Swift
+let white = UIColor(r: 255, g: 255, b: 255)
+let black20 = UIColor(r: 0, g: 0, b: 0, a: 51) // alpha 20%
+```
+
+**init(hex8: Int)** - alpha + rgb 16진수 초기화
+```Swift
+let red = UIColor(hex8: 0xFFFF0000)
+let green20 = UIColor(hex8: 0x3300FF00) // alpha 20%
+```
+
+**init(hex6: Int, alpha: CGFloat? = nil)** - alpha + rgb 16진수 초기화
+```Swift
+let blue = UIColor(hex6: 0x0000FF)
+let blue20 = UIColor(hex8: 0x0000FF, alpha = 0.2) // alpha 20%
+```
