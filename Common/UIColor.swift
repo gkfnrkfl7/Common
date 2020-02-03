@@ -35,6 +35,6 @@ extension UIColor {
         let green = CGFloat(color >> 8 & mask) / 255.0
         let blue = CGFloat(color & mask) / 255.0
         
-        self.init(red: red, green: green, blue: blue, alpha: alpha ?? 255)
+        self.init(red: red, green: green, blue: blue, alpha: alpha ?? 1)
     }
 }
