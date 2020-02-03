@@ -13,6 +13,20 @@ array.remove(from: "c")
 // array ["a", "b", "d"]
 ```
 
+### Dictionary
+**init<S>(sequence: S, transform: (_ element: S.Element) -> (ket: Key, value: Value)) where S: Sequence** - 배열 아이템 객체로 삭제
+```Swift
+struct Item {
+  var idx: Int
+  var name: String
+}
+let array = [Item(idx: 0, name: "a"), Item(idx: 1, name: "b"), Item(idx: 2, name: "c")]
+
+let dictionary = Dictionary.init(sequence: array) { ($0.idx, $0) }
+// dicionary Dictionary<Int, Item>
+// [0: Item, 1: item, 2: Item]
+```
+
 ### String
 **nsRange(from: Range) -> NSRange** - range -> nsRange
 ```Swift
