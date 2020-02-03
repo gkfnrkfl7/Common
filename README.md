@@ -14,7 +14,7 @@ array.remove(from: "c")
 ```
 
 ### Dictionary
-**init<S>(sequence: S, transform: (_ element: S.Element) -> (ket: Key, value: Value)) where S: Sequence** - 배열 아이템 객체로 삭제
+**init(sequence: Sequence, transform: (_ element: Sequence.Element) -> (ket: Key, value: Value))** - 배열 -> Dictionary
 ```Swift
 struct Item {
   var idx: Int
